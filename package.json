@@ -1,7 +1,7 @@
 {
-  "name": "@hyperswarm/dht-relay",
+  "name": "dht-relay",
   "version": "0.2.2",
-  "description": "Relaying the Hyperswarm DHT over framed streams to bring decentralized networking to everyone",
+  "description": "core/dht-relay",
   "main": "./index.js",
   "exports": {
     ".": "./index.js",
@@ -19,16 +19,26 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hyperswarm/dht-relay.git"
+    "url": "git+https://github.com/backbonedao/dht-relay.git"
   },
-  "author": "Kasper Isager Dalsgarð <kasper@funktionel.co>",
+  "contributors": [
+    {
+      "name": "backbone://dao",
+      "email": "team@backbonedao.com",
+      "url": "https://backbonedao.com"
+    },
+    {
+      "name": "Kasper Isager Dalsgarð",
+      "email": "kasper@funktionel.co"
+    }
+  ],
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/hyperswarm/dht-relay/issues"
+    "url": "https://github.com/backbonedao/dht-relay/issues"
   },
-  "homepage": "https://github.com/hyperswarm/dht-relay#readme",
+  "homepage": "https://github.com/backbonedao/dht-relay#readme",
   "dependencies": {
-    "@hyperswarm/dht": "^5.0.13",
+    "@hyperswarm/dht": "github:backbonedao/dht",
     "@hyperswarm/secret-stream": "^5.1.4",
     "b4a": "^1.1.4",
     "compact-encoding": "^2.6.1",
@@ -42,8 +52,8 @@
   },
   "devDependencies": {
     "brittle": "^2.2.7",
-    "hypercore": "^10.0.0-alpha.34",
-    "hyperswarm": "^3.0.1",
+    "hypercore": "github:backbonedao/data",
+    "hyperswarm": "github:backbonedao/swarm",
     "random-access-memory": "^4.0.0",
     "standard": "^16.0.3",
     "ws": "^8.2.2"
