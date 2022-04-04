@@ -1,5 +1,5 @@
 {
-  "name": "dht-relay",
+  "name": "@backbonedao/dht-relay",
   "version": "0.2.2",
   "description": "core/dht-relay",
   "main": "./index.js",
