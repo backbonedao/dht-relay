@@ -32,7 +32,7 @@
       "email": "kasper@funktionel.co"
     }
   ],
-  "license": "ISC",
+  "license": "AGPL-3.0-or-later",
   "bugs": {
     "url": "https://github.com/backbonedao/dht-relay/issues"
   },
